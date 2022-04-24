@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "AwanZaman";
+    font-weight: bold;
+    src: url("../font/AwanZaman\ Bold.ttf");
+}
+body {
+    background-image: url("../image/background.jpg");
+    font-family: "AwanZaman";
+    font-size: 2rem;
+}
+$primary: #806dd6;
+
+h1 {
+    color: $primary;
+    text-align: left;
+    left: 10%;
+}
+:fullscreen {
+    font-size: 1rem;
+}

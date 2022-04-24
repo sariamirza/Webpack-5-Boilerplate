@@ -1,0 +1,13 @@
+//- layout.pug
+doctype html
+html(lang="en")
+    head
+        title= htmlWebpackPlugin.options.title
+        //script(src="/js/main.js") 
+        //link(rel="stylesheet" href="style.css")
+        block scripts
+    body
+        block content
+        block foot
+            #footer
+                p some footer content
