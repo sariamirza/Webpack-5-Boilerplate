@@ -81,6 +81,7 @@ const config = {
     },
     optimization: {
         minimizer: ["...", new CssMinimizerPlugin()],
+        runtimeChunk: "single",
         splitChunks: {
             chunks: "all",
             /* cacheGroups: {
