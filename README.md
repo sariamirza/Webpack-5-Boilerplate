@@ -105,6 +105,8 @@ There are two modes in the configuration: development and production, and each m
 
 * [autoprefixer](https://github.com/postcss/autoprefixer) - Parse CSS and add vendor prefixes to rules by Can I Use.
 
+* [postcss-purgecss](https://github.com/FullHuman/purgecss/tree/master/packages/postcss-purgecss) - PurgeCSS is a tool to remove unused CSS.
+
 ### Pug
 
 * [pug](https://github.com/pugjs/pug) - Pug – robust, elegant, feature rich template engine for Node.js
